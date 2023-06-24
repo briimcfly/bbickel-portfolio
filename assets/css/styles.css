@@ -31,6 +31,7 @@ p {
     font-family:"Roboto", sans-serif;
 }
 
+/* **************************************************************************** */
 /* Navigation/Top Bar */
 nav {
     display:flex;
@@ -70,6 +71,8 @@ nav ul li a {
     color:var(--deep-blue);
 }
 
+/* **************************************************************************** */
+/* About Me Section  */
 
 #about-me {
     display:flex;
@@ -80,19 +83,45 @@ nav ul li a {
     align-items: center;
     height:380px;
     overflow:hidden;
+    gap:100px;
 }
 
 #left {
     display:flex;
     flex-direction: column;
     align-items:flex-start;
+    gap:24px;
+    line-height:1.5;
+}
+
+#left .about-me-content{
     gap:4px;
+}
+
+#left .social-group {
+    display:flex;
+    gap:24px;
+    font-size:36px;
+}
+
+#left .social-group a{
+    color:var(--aqua);
+}
+
+#left .social-group a:hover{
+    color:var(--aqua);
+    transform:rotate(10deg);
 }
 
 /* About Me Photo Group */
 #selfie-image-group{
-    display:flex;
+
+}
+
+#selfie-image-group img{
     position:relative;
     bottom:-30;
-    flex-shrink: 0;
 }
+
+
+/* **************************************************************************** */
