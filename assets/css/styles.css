@@ -9,17 +9,31 @@
 }
 
 h1,h2,h3, a{
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight:700;
+}
+
+h2{
+    font-size:18px;
+    font-weight:500;
+}
+
+h3 {
+    font-weight:16px;
+    font-weight:700;
 }
 
 p {
-    font-family:"Roboto";
+    font-family:"Roboto", sans-serif;
 }
 
 /* Navigation/Top Bar */
 nav {
     display:flex;
-    width:100%;
     padding: 24px 40px;
     align-items:center;
     justify-content: center;
@@ -54,4 +68,31 @@ nav ul li a {
     font-size:16px;
     font-weight:600;
     color:var(--deep-blue);
+}
+
+
+#about-me {
+    display:flex;
+    background:var(--deep-blue);
+    color: var(--white);
+    padding:24px;
+    justify-content:space-between;
+    align-items: center;
+    height:380px;
+    overflow:hidden;
+}
+
+#left {
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap:4px;
+}
+
+/* About Me Photo Group */
+#selfie-image-group{
+    display:flex;
+    position:relative;
+    bottom:-30;
+    flex-shrink: 0;
 }
