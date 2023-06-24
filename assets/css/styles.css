@@ -8,12 +8,12 @@
     --white:#fff;
 }
 
-h1,h2,h3{
-    font-family: "Open Sans", sans-serif;
+h1,h2,h3, a{
+    font-family: "Open Sans";
 }
 
 p {
-    font-family:"Roboto", sans-serif;
+    font-family:"Roboto";
 }
 
 /* Navigation/Top Bar */
@@ -22,6 +22,36 @@ nav {
     width:100%;
     padding: 24px 40px;
     align-items:center;
-    gap:644px;
+    justify-content: center;
     background:var(--aqua);
+}
+
+#logo {
+    font-size:22px;
+    font-weight:900;
+    color:var(--deep-blue);
+    position:absolute;
+    left:24px;
+}
+
+@media (max-width:360px) {
+    #logo {
+        display:none;
+    }
+}
+
+nav ul {
+    display:flex;
+    gap:44px;
+}
+
+nav ul li {
+    display:inline;
+}
+
+nav ul li a {
+    text-decoration:none;
+    font-size:16px;
+    font-weight:600;
+    color:var(--deep-blue);
 }
