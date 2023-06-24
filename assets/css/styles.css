@@ -1,3 +1,27 @@
+/* Global Styles */
+:root {
+    --aqua:#A8DADC;
+    --deep-blue:#1E2331;
+    --gray-blue:#404B69;
+    --accent:#E63946;
+    --bg-white:#f5f5f5;
+    --white:#fff;
+}
+
 h1,h2,h3{
     font-family: "Open Sans", sans-serif;
+}
+
+p {
+    font-family:"Roboto", sans-serif;
+}
+
+/* Navigation/Top Bar */
+nav {
+    display:flex;
+    width:100%;
+    padding: 24px 40px;
+    align-items:center;
+    gap:644px;
+    background:var(--aqua);
 }
