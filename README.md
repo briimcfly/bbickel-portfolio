@@ -46,4 +46,7 @@ While I am satisfied with my portfolio page, there are a few areas I would like 
 
 * Incorporate additional projects as I complete them to further demonstrate my skills.
 * Add a contact form to allow potential employers to reach out to me easily.
-* Improve the responsive layout. 
+* Improve the responsive layout.
+
+#### Attribution 
+CSS Reset: [Eric Meyer](https://meyerweb.com/eric/tools/css/reset/) 
