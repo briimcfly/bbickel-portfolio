@@ -276,6 +276,9 @@ button:hover{
     gap:4px;
 }
 
+/* *********************************************************
+About Me Section */
+
 #contact-me{
     max-width: var(--app-max-width);
     margin:0 auto;
