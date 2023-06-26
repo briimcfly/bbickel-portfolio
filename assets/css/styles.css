@@ -189,11 +189,11 @@ figcaption{
     display:flex;
     flex-direction:column;
     gap:8px;
-    flex:1 0 40%;
+    flex:1 1 40%;
 }
 
 .work-card img{
-
+    width:100%;
 }
 
 #small-card-container{
@@ -202,4 +202,5 @@ figcaption{
     flex-wrap:wrap;
     gap:16px;
 }
+
 
