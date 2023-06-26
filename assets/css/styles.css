@@ -46,6 +46,10 @@ figure:hover{
     cursor:default;
 }
 
+a{
+    text-decoration:none;
+}
+
 
 /* **************************************************************************** */
 /* Navigation/Top Bar */
@@ -231,7 +235,7 @@ nav ul li a {
     gap:16px;
 }
 
-.work-card button {
+button {
     padding:12px;
     background-color: var(--aqua);
     color:var(--deep-blue);
@@ -242,7 +246,7 @@ nav ul li a {
     box-shadow: var(--card-shadow);
 }
 
-.work-card button:hover{
+button:hover{
     cursor:pointer;
     background-color:#8ec6c8;
     transition: background-color 500ms;
@@ -270,4 +274,14 @@ nav ul li a {
 .tag-group{
     display:flex;
     gap:4px;
+}
+
+#contact-me{
+    max-width: var(--app-max-width);
+    margin:0 auto;
+}
+
+.contact-button-group{
+    margin-top:24px;
+    margin-bottom:24px;
 }
