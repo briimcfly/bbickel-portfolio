@@ -6,6 +6,8 @@
     --accent:#E63946;
     --bg-white:#f5f5f5;
     --white:#fff;
+    
+    --app-max-width:1440px;
 }
 
 h1,h2,h3, a{
@@ -53,13 +55,6 @@ nav {
     z-index:999;
 }
 
-#logo {
-    font-size:22px;
-    font-weight:900;
-    color:var(--deep-blue);
-    position:absolute;
-    left:24px;
-}
 
 @media (max-width:360px) {
     #logo {
@@ -87,13 +82,20 @@ nav ul li a {
 /* About Me Section  */
 
 #about-me {
-    display:flex;
     background:var(--deep-blue);
     color: var(--white);
     padding: 84px 40px 0px 40px;
+    display:flex;
+    justify-content: center;
+
+}
+
+#about-me-content{
+    max-width:var(--app-max-width);
     align-items: center;
     justify-content:space-around;
     gap:80px;
+    display:flex;
 }
 
 #left {
@@ -175,6 +177,8 @@ figcaption{
 
 #my-work{
     padding:24px;
+    max-width:var(--app-max-width);
+    margin:0 auto;
 }
 
 .work-card{
@@ -185,7 +189,11 @@ figcaption{
     display:flex;
     flex-direction:column;
     gap:8px;
-    flex-grow:1;
+    flex:1 0 40%;
+}
+
+.work-card img{
+
 }
 
 #small-card-container{
